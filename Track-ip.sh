@@ -87,8 +87,8 @@ printf "\e[0m\n"
 printf "  \e[0m\e[1;93m  GOOGLE Maps   \e[0m\e[1;96m:\e[0m\e[1;94m  https://maps.google.com/?q=$mylat,$mylon\e[0m\n"
 sleep 5
 printf "\e[0m\n"
-printf "  \e[0m\e[1;91m[\e[0m\e[1;97m01\e[0m\e[1;91m]\e[0m\e[1;93m Return To Main Menu\e[0m\n"
-printf "  \e[0m\e[1;91m[\e[0m\e[1;97m02\e[0m\e[1;91m]\e[0m\e[1;93m Exit\e[0m\n"
+printf "  \e[0m\e[1;91m[\e[0m\e[1;97m01\e[0m\e[1;91m]\e[0m\e[1;93m Retornar Ao Menu\e[0m\n"
+printf "  \e[0m\e[1;91m[\e[0m\e[1;97m02\e[0m\e[1;91m]\e[0m\e[1;93m Sair\e[0m\n"
 printf "\e[0m\n"
 read -p $'  \e[1;31m>>\e[0m\e[1;96m  \en' mainorexit1
 
@@ -115,7 +115,7 @@ banner
 printf "\e[0m\n"
 printf "\e[0m\n"
 printf "\e[0m\n"
-read -p $'  \e[1;31m[\e[0m\e[1;37m~\e[0m\e[1;31m]\e[0m\e[1;92m Input IP Address \e[0m\e[1;96m: \e[0m\e[1;93m\en' useripaddress
+read -p $'  \e[1;31m[\e[0m\e[1;37m~\e[0m\e[1;31m]\e[0m\e[1;92m Digite o IP \e[0m\e[1;96m: \e[0m\e[1;93m\en' useripaddress
 
 ipaddripapico=$(curl -s "https://ipapi.co/$useripaddress/json" -L)
 ipaddripapicom=$(curl -s "http://ip-api.com/json/$useripaddress" -L)
@@ -158,8 +158,8 @@ printf "\e[0m\n"
 printf "  \e[0m\e[1;93m  GOOGLE Maps   \e[0m\e[1;96m:\e[0m\e[1;94m  https://maps.google.com/?q=$userlat,$userlon\e[0m\n"
 sleep 5
 printf "\e[0m\n"
-printf "  \e[0m\e[1;91m[\e[0m\e[1;97m01\e[0m\e[1;91m]\e[0m\e[1;93m Return To Main Menu\e[0m\n"
-printf "  \e[0m\e[1;91m[\e[0m\e[1;97m02\e[0m\e[1;91m]\e[0m\e[1;93m Exit\e[0m\n"
+printf "  \e[0m\e[1;91m[\e[0m\e[1;97m01\e[0m\e[1;91m]\e[0m\e[1;93m Retornar Ao Menu\e[0m\n"
+printf "  \e[0m\e[1;91m[\e[0m\e[1;97m02\e[0m\e[1;91m]\e[0m\e[1;93m Sair\e[0m\n"
 printf "\e[0m\n"
 read -p $'  \e[1;31m>>\e[0m\e[1;96m  \en' mainorexit2
 
