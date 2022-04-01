@@ -13,8 +13,7 @@ printf "\e[1;33m     |_|_|  \__,_|\___|_|\_\ \e[0m\e[1;32m |_____| .__/ \e[0m\n"
 printf "\e[1;32m                                    | |    \e[0m\n"
 printf "\e[1;32m                                    |_|    \e[0m\n"
 printf "\e[0m\n"
-printf "\e[0m\e[1;33m    Coded By Koppy404 \e[0m\e
-printf "\e[0m\e[1;33m    Instagram: koppy999_ \e[0m\e
+printf "\e[0m\e[1;33m    Coded By Koppy404 \e[0m\e"\e[0m\e[1;33m    Instagram: koppy999_ \e[0m\e
 
 
 }
