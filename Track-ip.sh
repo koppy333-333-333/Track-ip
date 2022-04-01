@@ -13,8 +13,7 @@ printf "\e[1;33m     |_|_|  \__,_|\___|_|\_\ \e[0m\e[1;32m |_____| .__/ \e[0m\n"
 printf "\e[1;32m                                    | |    \e[0m\n"
 printf "\e[1;32m                                    |_|    \e[0m\n"
 printf "\e[0m\n"
-printf "\e[0m\e[1;33m    Coded By Koppy404 \e[0m\e"\e[0m\e[1;33m    Instagram: koppy999_ \e[0m\e
-
+printf "\e[0m\e[1;33m    Coded By Koppy 404 \e[0m\e[1;31m(\e[0m\e[1;33m TAHMID RAYAT \e[0m\e[1;31m)\e[0m\n"
 
 }
 
@@ -24,7 +23,7 @@ printf "\e[0m\e[1;31m  [\e[0m\e[1;37m01\e[0m\e[1;31m]\e[0m\e[1;33m Meu IP\e[0m\n
 printf "\e[0m\e[1;31m  [\e[0m\e[1;37m02\e[0m\e[1;31m]\e[0m\e[1;33m Localizar Ip\e[0m\n"
 printf "\e[0m\e[1;31m  [\e[0m\e[1;37m00\e[0m\e[1;31m]\e[0m\e[1;33m Sair\e[0m\n"
 printf "\e[0m\n"
-read -p $'  \e[1;31m[\e[0m\e[1;37m~\e[0m\e[1;31m]\e[0m\e[1;92m Selecione a opção \e[0m\e[1;96m: \e[0m\e[1;93m\en' option
+read -p $'  \e[1;31m[\e[0m\e[1;37m~\e[0m\e[1;31m]\e[0m\e[1;92m Selecione Uma Opção \e[0m\e[1;96m: \e[0m\e[1;93m\en' option
 
 if [[ $option == 1 || $option == 01 ]]; then
 myipaddr
@@ -101,7 +100,7 @@ printf "\e[0m\n"
 exit 1
 
 else
-printf " \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
+printf " \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Opção Inválida \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
 sleep 1
 banner
 menu
@@ -172,7 +171,7 @@ printf "\e[0m\n"
 exit 1
 
 else
-printf " \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
+printf " \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Opção Inválida \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
 sleep 1
 banner
 menu
