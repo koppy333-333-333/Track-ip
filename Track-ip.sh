@@ -14,7 +14,7 @@ printf "\e[1;32m                                    | |    \e[0m\n"
 printf "\e[1;32m                                    |_|    \e[0m\n"
 printf "\e[0m\n"
 printf "\e[0m\e[1;33m    Coded By Koppy 404 \e[0m\e
-[1;31m    Instagram: @koppy999_ \e[0m\n"
+[1;31m    Instagram: @koppyyy_ \e[0m\n"
 
 }
 
